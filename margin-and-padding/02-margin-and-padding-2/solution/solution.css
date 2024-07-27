@@ -55,7 +55,7 @@ We separated it out here to make it extra clear what has changed. */
 }
 
 button {
-  display: block;
+  display: block; /* Button is inline element, to bring it to next line, used display:block*/
   margin: 0 auto;
   padding: 8px 24px;
 }
